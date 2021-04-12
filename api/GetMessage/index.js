@@ -5,4 +5,5 @@ module.exports = async function (context, req) {
       }
     };
     const connectionString = process.env.DATABASE_CONNECTION_STRING;
+    console.log(connectionString);
   };
